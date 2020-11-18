@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+#parent {
+    width: 50%;
+    height: 60rem;
+    margin-left: 25%;
+    margin-top: 5rem;
+    padding: 0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+#div1, #div6 {
+    background-color: #1ABC9C;
+}
+#div2, #div7 {
+    background-color: #3498DB;
+}
+
+#div3, #div8 {
+    background-color: #9B59B6;
+}
+#div4, #div9 {
+    background-color: #E67E22;
+}
+#div5 {
+    background-color: #E74C3C;
+}
+.enfant {
+    width: 23%;
+    height: 19rem;
+}
+
+#div5 {
+    width: 97%;
+}
