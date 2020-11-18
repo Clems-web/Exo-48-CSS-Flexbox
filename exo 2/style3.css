@@ -44,3 +44,20 @@ html {
 #div5 {
     width: 97%;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #parent {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .enfant {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
