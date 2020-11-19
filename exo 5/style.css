@@ -44,7 +44,9 @@ a {
 #div5 {
     background-color: #E74C3C;
 }
-
+#div3:hover {
+    transform: scale(1.25);
+}
 @media screen and (max-width: 600px) {
     #menu {
         flex-direction: column;
@@ -54,5 +56,8 @@ a {
     }
     a, .enfant {
         width: 100%;
+    }
+    #div3:hover {
+        transform: none;
     }
 }
