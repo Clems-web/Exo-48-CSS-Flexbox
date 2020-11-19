@@ -44,3 +44,15 @@ a {
 #div5 {
     background-color: #E74C3C;
 }
+
+@media screen and (max-width: 600px) {
+    #menu {
+        flex-direction: column;
+        height: 50rem;
+        margin: 0;
+        border: none;
+    }
+    a, .enfant {
+        width: 100%;
+    }
+}
