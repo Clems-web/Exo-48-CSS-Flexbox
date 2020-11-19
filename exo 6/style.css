@@ -10,7 +10,6 @@ body {
 #parent {
     width: 100%;
     height: 80rem;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -51,4 +50,70 @@ body {
     width: 80%;
     height: 60rem;
     background-color: #9B59B6;
+}
+
+.nom {
+    border: 1px solid white;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    width: 80%;
+    height: 6rem;
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+p {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+    color: white;
+    text-align: justify;
+    margin: 2rem;
+}
+
+.pbottom {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #parent {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80rem;
+    }
+    #middle {
+        width: 100%;
+        flex-direction: row;
+    }
+    #petitfils2 {
+        order: -1;
+        width: 100%;
+        height: 20rem;
+    }
+    #petitfils1 {
+        width: 100%;
+        height: 50rem;
+    }
+    .nom {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .pbottom {
+        margin: 0;
+        padding-top: 0;
+        margin-top: 4rem;
+    }
 }
