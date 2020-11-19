@@ -59,5 +59,16 @@ html {
         width: 100%;
         margin: 0;
         padding: 0;
+        height: 12rem;
+        display: block;
+    }
+    #div5 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+    #div6, #div7, #div8, #div9 {
+        display: none;
     }
 }
