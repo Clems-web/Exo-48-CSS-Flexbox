@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+#parent {
+    width: 50%;
+    height: 60rem;
+    margin-left: 25%;
+    margin-top: 5rem;
+    background-color: lightgray;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.enfant {
+    width: 25%;
+    height: 20rem;
+    margin: 1rem;
+}
+
+#div1 {
+    background-color: #1ABC9C;
+}
+
+#div2 {
+    background-color: #3498DB;
+}
